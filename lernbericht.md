@@ -13,7 +13,9 @@ Ich habe gelernt, dass man mithilfe des "PropertyActionListener" ganz einfach be
 
 Der PropertyActionListener wird nicht normal wie die anderen Tags benutzt, sondern sieht folgendermassen aus: <f:setPropertyActionListener/>. Er bekommt die Attribute "target" und "value". Value ist der Wert, der weitergegeben wird. Target gibt an, wohin der Wert weitergegeben wird, zum Beispiel kann er in einer Variable in einer Bean gespeichert werden. Um diesen Tag braucht es jedoch eine Aktion, zum Beispiel einen CommandLink oder einen CommandButton. Sobald dieser gedrückt wird, wird dann dieser Wert weitergeleitet.
 Gebraucht haben wir den PropertyActionListener für eine kleine Charakterdesign-Webapp. Dabei ging es darum, dass man auf eines von zwei Bilder klickt und je nach Bild ein anderer Wert vermerkt wird. Hier das Beispiel, wie es auf der Website aussieht und der Code, der dahinter steckt: 
+
 ![image](https://user-images.githubusercontent.com/69569613/187029174-84a4a12c-0efd-4bc2-8f38-3384cc59d1d3.png)
+
 ```
         <!-- Das ganze muss in ein Formular -->
         <h:form>
